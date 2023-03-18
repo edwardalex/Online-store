@@ -1,0 +1,25 @@
+.listing-page {
+  position: relative;
+  top: 70px;
+  padding-inline: 60px;
+  padding-bottom: 70px;
+}
+
+.listing-page-title {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 68px;
+  margin-block: 60px;
+}
+
+.listing-page-product-container {
+  display: grid;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 80px;
+  margin-bottom: 80px;
+  text-decoration: none;
+}
